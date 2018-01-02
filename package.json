@@ -1,0 +1,29 @@
+{
+  "name": "noerp",
+  "version": "1.0.0",
+  "description": "an erp for starcraft",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ejs": "^2.5.2",
+    "express-session": "^1.11.3",
+    "morgan": "^1.6.1",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "fb": "^2.0.0",
+    "body-parser": "^1.13.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "erp",
+    "starcraft"
+  ],
+  "author": "thefailtheory",
+  "license": "ISC"
+}

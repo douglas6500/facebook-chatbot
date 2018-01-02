@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body>
+<header>
+    <% include ../partials/header %>
+</header>
+
+<% if (!user) { %>
+	<p>Welcome! Please <a href="/login">log in</a>.</p>
+<% } else { %>
+	<p>Hello, <%= user.username %>. View your <a href="/profile">profile</a>.</p>
+	<p>Send a message to Facebook click <a href="/send">send !</a></p>
+<% } %>
+
+<footer>
+  <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>
